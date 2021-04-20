@@ -10,6 +10,11 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Antlr4.Runtime" Version="4.6.6"/>
+        <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Antlr\CalculatorLexer.g4" />
+      <Content Include="Antlr\CalculatorParser.g4" />
     </ItemGroup>
 </Project>
